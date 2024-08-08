@@ -121,7 +121,7 @@ function AppNavBar({ theme, toggleTheme }) {
           {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           
            */}
- <AdsClickIcon sx={{ display: { xs: 'flex', md: 'flex' }, mr: 1 }} />
+ <AdsClickIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
            <Box component="img"
         sx={{
           width: '40px', // adjust as needed
@@ -178,8 +178,8 @@ function AppNavBar({ theme, toggleTheme }) {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 ,borderColor:"green" }}>
+                <Avatar alt="Karthike Murugesan" sx={{ p: 0 , color:'white' ,borderColor:"white",backgroundColor:'#cb8087' }} src="/static/images/avatar/2.jpg" />
               </IconButton>
             </Tooltip>
             <Menu
