@@ -59,7 +59,7 @@ function AppNavBar({ theme, toggleTheme }) {
   };
   return (
     <>
-    <AppBar position="static">
+    <AppBar className='appnavbar' position="static" sx={{ zIndex: (theme) => theme.zIndex.modal + 1 }} >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
        

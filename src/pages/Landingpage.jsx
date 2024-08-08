@@ -73,7 +73,7 @@ border: {
             p: 0, // padding inside the stack
           }}
         >
-          <Box className="headerctrl" sx={{ position: { xs: "fixed", md: "relative", sm: "fixed" ,lg:"relative"} }} >
+          <Box className="headerctrl appnavbar" sx={{ position: { xs: "fixed", md: "relative", sm: "fixed" ,lg:"relative"} }} >
             <AppNavBar className="ctrlnavbar" theme={themeMode} toggleTheme={toggleTheme} />
           </Box>
           <Box className="contentscroll">

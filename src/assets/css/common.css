@@ -17,6 +17,7 @@ font-weight:900;
 .headerctrl
 {
     position: fixed;width: 100%;margin-bottom: 16px;
+    z-index: 9999;
 }
 .ctrlnavbar 
 {
@@ -37,4 +38,9 @@ font-weight:900;
 .contentscroll
 {
     margin-top: 52px;
+}
+
+.maindiv
+{
+    overflow-x: hidden;
 }

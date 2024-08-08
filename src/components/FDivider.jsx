@@ -14,7 +14,7 @@ export default function FDivider() {
     <Card
       variant="outlined"
       sx={{
-        p: 4,
+        p: 2,
         pt: 2,
         pb: 1,
         borderRadius: 10,
